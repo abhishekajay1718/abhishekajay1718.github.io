@@ -1,0 +1,90 @@
+---
+title: "Resume"
+author: "Abhishek Ajay (aa4266)"
+date: "October 31, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+_______________________________________________________________________________________________________
+###SUMMARY
+Biostatistics graduate student with prior research experience in data analysis of genetic data. Seeking for data intensive works with flexible fields of interest.
+
+###EDUCATION
+
+####COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH 	                
+New York, NY, USA
+Master of Science, Biostatistics/Statistical Genetics Track
+Expected 05/2020 
+Relevant Courses: Human Population Genetics, Biostatistical Methods I, Data Science, Probability, Statistical Inferences
+
+####INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI (IIT Guwahati) 	
+Assam, India 
+Bachelor of Technology, Biotechnology, 						                  
+Graduation 06/2018
+Thesis: Analysis of transcriptomics data of a natural Daphnia magna population under varying predation pressure.
+
+###EXPERIENCE
+
+####KATHOLIEKE UNIVERSITEIT (KU) LEUVEN 			     
+Leuven, Belgium, 
+05/2017 - 07/2017 and 12/2017 - 01/2018
+Visiting Scholar, Department of Biology					           
+Laboratory of Aquatic Ecology, Evolution and Conservation
+
+* Carried out the RNA-Seq data analysis of a natural Daphnia magna population that was under varying predation pressure during a period of about sixteen years.
+
+* Short read mapping and variant calling of the paired end reads was carried out following which a quality check was done using Principal Component Analysis, Concordance Analysis and VCF tools.
+Reaction norms approach has been carried out for further analysis as part of the Bachelor’s Thesis Project.
+
+####INDIAN INSTITUTE OF SCIENCE, BANGALORE 
+Karnataka, India
+05/2016 - 07/2016 
+Summer Research Fellow, Department of Biochemistry
+
+* Investigated the possible mechanism behind limiting the spread of rDNA silencing at the RDN1 left boundary on yeast chromosome XII.
+
+* Cloned a 600bp fragment to KanMX6 and then sub-cloned it into the plasmid pRO363 to check whether barrier activity is sequence specific or size dependent by analysing the mating efficiency of transformed yeast cells.
+
+####INDIAN INSTITUTE OF TECHNOLOGY, GUWAHATI 		           
+Assam, India 
+01/2017 - 03/2017 
+Department of Biosciences and Bioengineering
+
+* Optimise expression and purification of a Cas4 mutant protein, Cas4E87A and analyse its activity.
+
+* Purification of Cas4E87A mutant protein by the Hybrid Method followed by its quantification.
+
+###SKILLS
+####Tools: 
+  * R, SNPRelate, FastQC, Samtools, MS Excel, MS Word, MS PowerPoint
+
+####OS: 
+  * Windows, MacOS
+
+####Languages: 
+  * Bilingual in English/Hindi.
+
+###LEADERSHIP
+####Student Mentor- Student’s Welfare Board, IIT-Guwahati 				                                  09/2016 - 04/2017
+Mentored freshman students through various facets of the first academic year.
+Students showcased great results with one (of the three) being in the top 5 of the class.
+Won the best student mentor award for the same.
+
+####Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati 	  	            10/2015 - 09/2016
+Organised the largest student science expo of North-East of India.
+Handled a budget of nearly INR 15,00,000 (~21,000 USD).
+Organised the itinerary of judges from all across the world such as Dr. Thomas Barclay (NASA).
+
+####Head- Industrial Conclave, Exhibitions and Literary Module, Techniche, IIT-Guwahati 	          10/2015 - 09/2016
+Lead a team of highly motivated students in organizing three high profile events.
+Managed the timeline, itinerary, budgeting and communication with all other parties.
+The exhibitions at IIT-Guwahati saw a footfall of nearly 30,000 people.
+
+####Member- National Service Scheme 						 	                                                  07/2015 - 04/2016
+
+####Member- Montage, The Photography Club of IIT-Guwahati 			   	                                07/2014 - 05/2018
