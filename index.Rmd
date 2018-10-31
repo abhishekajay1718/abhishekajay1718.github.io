@@ -2,11 +2,10 @@
 title: "ABHISHEK AJAY"
 output:
   html_document:
-    theme: flatly
+    toc: false
+    toc_float: false
     css: style.css
 ---
 
-
-
 <center><img src="images/me.jpg" alt="Avatar" width="45%"></center>
-  
+  <center></br>Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4.</center>
