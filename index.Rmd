@@ -1,5 +1,9 @@
 ---
 title: "ABHISHEK AJAY"
+output:
+  html_document:
+    theme: flatly
+    css: style.css
 ---
 
 
