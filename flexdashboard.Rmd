@@ -34,7 +34,7 @@ Since the data set is quite huge with 1,417,635 entries, we remove all the NAs f
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+###Scatter Plot with tmin vs tmax
 
 ```{r scatter_plot}
 ny_noaa_data_tidy_5000 %>% 
@@ -46,7 +46,7 @@ plot_ly(x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+###Box Plot of tmax through the months
 
 ```{r box_plot}
 ny_noaa_data_tidy_5000 %>% 
@@ -56,7 +56,7 @@ ny_noaa_data_tidy_5000 %>%
   plot_ly(x = ~month, y = ~tmax, color = ~month, type = "box")
 ```
 
-### Chart C
+###Bar Plot of amount of snow fall (mm) per month though the years
 
 ```{r bar_plot}
 ny_noaa_data_tidy_5000 %>% 
