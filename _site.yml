@@ -2,11 +2,12 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
-  right:
+  left:
     - text: "Resume"
       href: resume.html
     - text: "Dashboard"
       href: flexdashboard.html
+  right:  
     - icon: fa-envelope fa-lg
       href: mailto:<abhishek.ajay@columbia.edu>
     - icon: fa-linkedin fa-lg
