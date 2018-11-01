@@ -8,5 +8,5 @@ output:
 ---
 
 <center><img src="images/me.jpg" alt="Avatar" width="45%" class="center"></center>
-  <center></br><font size="4">Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4.</center><font size="6">
+  <center></br><font size="5"><font family = "roboto"><font color = "white">Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4.</center></font size="5"></font color = "white">
   <body background="images/bg.jpg">
