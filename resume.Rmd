@@ -2,13 +2,15 @@
 title: "Resume"
 author: "Abhishek Ajay (aa4266)"
 date: "October 31, 2018"
-output: html_document
+output: 
+  html_document:
+    css: style_resume.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+<body>
 ###SUMMARY
 
 Biostatistics graduate student with prior research experience in data analysis of genetic data. Seeking for data intensive works with flexible fields of interest.
@@ -17,23 +19,29 @@ Biostatistics graduate student with prior research experience in data analysis o
 
 ####**Columbia University, Mailman School of Public Health**
 New York, NY, USA
-</br>Master of Science, Biostatistics/Statistical Genetics Track
-</br>Expected 05/2020 
+<p style="text-align:left;">
+Master of Science, Biostatistics/Statistical Genetics Track
+<span style="float:right;">Expected 05/2020</span>
 </br>**Relevant Courses**: Human Population Genetics, Biostatistical Methods I, Data Science, Probability, Statistical Inferences
+</p>
 
 ####**Indian Institute of Technology Guwahati (IIT Guwahati)** 	
 Assam, India 
-</br>Bachelor of Technology, Biotechnology 						                  
-Graduation 06/2018
+<p style="text-align:left;">
+Bachelor of Technology, Biotechnology
+<span style="float:right;">Graduation 06/2018</span>
 </br>**Thesis**: Analysis of transcriptomics data of a natural Daphnia magna population under varying predation pressure.
+</p>
 
 ###EXPERIENCE
 
 ####**Katholieke Universiteit (KU)** 			     
-Leuven, Belgium, 
-</br>05/2017 - 07/2017 and 12/2017 - 01/2018
-</br>Visiting Scholar, Department of Biology					           
-Laboratory of Aquatic Ecology, Evolution and Conservation
+Leuven, Belgium
+<p style="text-align:left;">
+Visiting Scholar, Department of Biology
+<span style="float:right;">05/2017 - 07/2017 and 12/2017 - 01/2018</span>
+</br>Laboratory of Aquatic Ecology, Evolution and Conservation
+</p>
 
 * Carried out the RNA-Seq data analysis of a natural Daphnia magna population that was under varying predation pressure during a period of about sixteen years.
 
@@ -42,8 +50,10 @@ Reaction norms approach has been carried out for further analysis as part of the
 
 ####**Indian Institute of Science, Bangalore (IISc)**
 Karnataka, India
-</br>05/2016 - 07/2016 
-</br>Summer Research Fellow, Department of Biochemistry
+<p style="text-align:left;">
+Summer Research Fellow, Department of Biochemistry
+<span style="float:right;">05/2016 - 07/2016 </span>
+</p>
 
 * Investigated the possible mechanism behind limiting the spread of rDNA silencing at the RDN1 left boundary on yeast chromosome XII.
 
@@ -51,8 +61,11 @@ Karnataka, India
 
 ####**Indian Institute of Technology, Guwahati** 		           
 Assam, India 
-</br>01/2017 - 03/2017 
-</br>Department of Biosciences and Bioengineering
+<p style="text-align:left;">
+Department of Biosciences and Bioengineering
+<span style="float:right;">01/2017 - 03/2017</span>
+</br>Laboratory of Aquatic Ecology, Evolution and Conservation
+</p>
 
 * Optimise expression and purification of a Cas4 mutant protein, Cas4E87A and analyse its activity.
 
@@ -69,8 +82,9 @@ Assam, India
   * Bilingual in English/Hindi.
 
 ###LEADERSHIP
-####**Student Mentor- Student’s Welfare Board, IIT-Guwahati**
-09/2016 - 04/2017
+<p style="text-align:left;">
+**Student Mentor- Student’s Welfare Board, IIT-Guwahati**<span style="float:right;">09/2016 - 04/2017</span>
+</p>
 
 * Mentored freshman students through various facets of the first academic year.
 
@@ -78,8 +92,9 @@ Assam, India
 
 * Won the best student mentor award for the same.
 
-####**Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati **	  	            
-10/2015 - 09/2016
+<p style="text-align:left;">
+**Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati**<span style="float:right;  font-weight: normal;>10/2015 - 09/2016</span>
+</p>
 
 * Organised the largest student science expo of North-East of India.
 
@@ -87,8 +102,9 @@ Assam, India
 
 * Organised the itinerary of judges from all across the world such as Dr. Thomas Barclay (NASA).
 
-####**Head- Industrial Conclave, Exhibitions and Literary Module, Techniche, IIT-Guwahati** 	          
-10/2015 - 09/2016
+<p style="text-align:left;">
+**Head- Industrial Conclave, Exhibitions and Literary Module, Techniche, IIT-Guwahati** <span style="float:right;">10/2015 - 09/2016</span>
+</p>
 
 * Lead a team of highly motivated students in organizing three high profile events.
 
@@ -96,8 +112,11 @@ Assam, India
 
 * The exhibitions at IIT-Guwahati saw a footfall of nearly 30,000 people.
 
-####**Member- National Service Scheme** 						 	                                                  
-07/2015 - 04/2016
-
-####**Member- Montage, The Photography Club of IIT-Guwahati**			   	                                
-07/2014 - 05/2018
+<p style="text-align:left;">
+**Member- National Service Scheme** 	<span style="float:right;">07/2015 - 04/2016</span>
+</p>
+						 	                                                  
+<p style="text-align:left;">
+**Member- Montage, The Photography Club of IIT-Guwahati**	<span style="float:right;">07/2014 - 05/2018</span>
+</p>
+</body>
