@@ -9,15 +9,17 @@ output:
 
 <body background="images/bg.jpg">
 <center><img src="images/me.jpg" alt="Avatar" width="36%" class="center"></center>
+
 <p>
-Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4. 
+  Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4. 
 </p>
+
 <p>
-As part of the homework, this website contains the following:
+  As part of the homework, this website contains the following:
 <ul>
-<li>A brief introductory landing page (this page)</li> 
-<li>Resume</li>
-<li>Flexdashboard plots using *plot_ly* on the NY_NOAA data set</li>
+  <li>A brief introductory landing page (this page)</li> 
+  <li>Resume</li>
+  <li>Flexdashboard plots using *plot_ly* on the NY_NOAA data set</li>
 </ul>
 </p>
 
