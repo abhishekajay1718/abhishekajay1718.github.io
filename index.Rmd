@@ -11,7 +11,7 @@ output:
 <center><img src="images/me.jpg" alt="Avatar" width="27%" class="center"></center>
 
 <p>
-  Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4. 
+  Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8105 homework 4. 
 </p>
 
 <p>
