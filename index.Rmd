@@ -7,5 +7,6 @@ output:
     css: style.css
 ---
 
-<center><img src="images/me.jpg" alt="Avatar" width="45%"></center>
-  <center></br>Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4.</center>
+<center><img src="images/me.jpg" alt="Avatar" width="45%" class="center"></center>
+  <center></br><font size="4">Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4.</center><font size="6">
+  <body background="images/bg.jpg">
