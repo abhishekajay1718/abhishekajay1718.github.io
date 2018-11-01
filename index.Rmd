@@ -8,7 +8,7 @@ output:
 ---
 
 <body background="images/bg.jpg">
-<center><img src="images/me.jpg" alt="Avatar" width="36%" class="center"></center>
+<center><img src="images/me.jpg" alt="Avatar" width="27%" class="center"></center>
 
 <p>
   Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8104 homework 4. 
