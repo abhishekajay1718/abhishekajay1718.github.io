@@ -11,6 +11,8 @@ navbar:
       href: https://www.linkedin.com/in/abhishekajay/
     - icon: fa-github fa-lg
       href: http://github.com/abhishekajay1718/
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/abhishekajay1718/
 output:
   html_document:
     toc: true
