@@ -22,7 +22,7 @@ New York, NY, USA
 <p style="text-align:left;">
 Master of Science, Biostatistics/Statistical Genetics Track
 <span style="float:right;">Expected 05/2020</span>
-</br>**Relevant Courses**: Human Population Genetics, Biostatistical Methods I, Data Science, Probability, Statistical Inferences
+</br>**Relevant Courses**: Data Science I and II ⃰, Probability, Statistical Inferences ⃰, Statistical Genetics Modeling ⃰, Biostatistical Methods I and II ⃰
 </p>
 
 ####**Indian Institute of Technology Guwahati (IIT Guwahati)** 	
@@ -31,6 +31,7 @@ Assam, India
 Bachelor of Technology, Biotechnology
 <span style="float:right;">Graduation 06/2018</span>
 </br>**Thesis**: Analysis of transcriptomics data of a natural Daphnia magna population under varying predation pressure.
+</br>**Relevant Courses**: Biochemistry, Molecular Biology and Genetic Engineering, Immunology, Bioinformatics, Human Disease Biology
 </p>
 
 ###EXPERIENCE
@@ -43,10 +44,11 @@ Visiting Scholar, Department of Biology
 </br>Laboratory of Aquatic Ecology, Evolution and Conservation
 </p>
 
-* Carried out the RNA-Seq data analysis of a natural Daphnia magna population that was under varying predation pressure during a period of about sixteen years.
+* Carried out data analysis of high throughput transcriptomics data of a natural Daphnia magna population that was under varying predation pressure during a period of sixteen years.
 
-* Short read mapping and variant calling of the paired end reads was carried out following which a quality check was done using Principal Component Analysis, Concordance Analysis and VCF tools.
-Reaction norms approach has been carried out for further analysis as part of the Bachelor’s Thesis Project.
+* Computed Principal Component Analysis (PCA), Concordance Analysis and VCF tools for quality check.
+
+* Produced visualisations such as reaction norms to understand the variation in gene expression over time.
 
 ####**Indian Institute of Science, Bangalore (IISc)**
 Karnataka, India
@@ -73,7 +75,7 @@ Department of Biosciences and Bioengineering
 
 ###SKILLS
 ####**Tools**: 
-  * R, SNPRelate, FastQC, Samtools, MS Excel, MS Word, MS PowerPoint
+  * R (ggplot2, dplyr, tidyverse, shiny), SQL*, MS Excel ⃰, MS Word, MS PowerPoint 
 
 ####**OS**: 
   * Windows, MacOS
@@ -88,9 +90,7 @@ Department of Biosciences and Bioengineering
 
 * Mentored freshman students through various facets of the first academic year.
 
-* Students showcased great results with one (of the three) being in the top 5 of the class.
-
-* Won the best student mentor award for the same.
+* Won the best student mentor award.
 
 <p style="text-align:left;">
 **Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati**<span style="float:right;  font-weight: normal;>10/2015 - 09/2016</span>
@@ -120,3 +120,6 @@ Department of Biosciences and Bioengineering
 **Member- Montage, The Photography Club of IIT-Guwahati**	<span style="float:right;">07/2014 - 05/2018</span>
 </p>
 </body>
+
+
+*: Basic proficiency
