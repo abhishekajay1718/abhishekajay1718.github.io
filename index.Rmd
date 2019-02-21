@@ -10,17 +10,17 @@ output:
 <body background="images/bg.jpg">
 <center><img src="images/me.jpg" alt="Avatar" width="27%" class="center"></center>
 
-<p>
-  Hi! I am a first year MS in Biostatistics Student and this is my personal website/P8105 homework 4. 
-</p>
+
 
 <p>
-  As part of the homework, this website contains the following:
-<ul>
-  <li>A brief introductory landing page (this page)</li> 
-  <li>Resume</li>
-  <li>Flexdashboard plots using *plot_ly* on the NY_NOAA data set</li>
-</ul>
+  Hi! I am a first year MS in Biostatistics Student and this is my personal website. 
+</p>
+<!--
+<p>
+  This website contains my resume. I love phtoography and I couldn't stop myself from adding my photography portfolio to this website as well. You'll find them on the top right tabs.  
+
 </p>
 
-<!-- Photo by Riccardo Chiarini on Unsplash -->
+ Photo by Riccardo Chiarini on Unsplash 
+ 
+ -->
