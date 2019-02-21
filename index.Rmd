@@ -15,6 +15,10 @@ output:
 <p>
   Hi! I am a first year MS in Biostatistics Student and this is my personal website. 
 </p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1200f5482c4c9c5a907cd58a84e2aef0d453720d
 <!--
 <p>
   This website contains my resume. I love phtoography and I couldn't stop myself from adding my photography portfolio to this website as well. You'll find them on the top right tabs.  
