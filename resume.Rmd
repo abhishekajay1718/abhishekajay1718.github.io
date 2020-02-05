@@ -53,9 +53,10 @@ Bachelor of Technology, Biotechnology
 
 #### **Columbia University, School of Nursing** 			     
 New York, New York
+<span style="float:right;">03/2019 - Present</span>
 <p style="text-align:left;">
 Program Assistant
-<span style="float:right;">03/2019 - Present</span>
+
 </p>
 
 * Collaborate with a two person team in managing the school’s global initiative, sending out nearly 100 students to 17 different international sites.
@@ -66,18 +67,20 @@ Program Assistant
 
 #### **Columbia University, Mailman School of Public Health** 			     
 New York, New York
+<span style="float:right;">03/2019 - Present</span>
 <p style="text-align:left;">
 Teaching Assistant, Department of Biostatistics
-<span style="float:right;">03/2019 - Present</span>
+
 </p>
 
 * Collaborated with a six-person team in managing weekly ofﬁce hours, assignments, quizzes and exams for the graduate-level Probability course, P8104 with 120 registered students. 
 
 #### **Katholieke Universiteit (KU)** 			     
 Leuven, Belgium
+<span style="float:right;">05/2017 - 07/2017 and 12/2017 - 01/2018</span>
 <p style="text-align:left;">
 Visiting Scholar, Department of Biology
-<span style="float:right;">05/2017 - 07/2017 and 12/2017 - 01/2018</span>
+
 </br>Laboratory of Aquatic Ecology, Evolution and Conservation
 </p>
 
@@ -87,6 +90,7 @@ Visiting Scholar, Department of Biology
 
 * Produced visualizations using ggplot2 in R to understand the variation in gene expression over time using reaction norms.
 
+<!--
 #### **Indian Institute of Science, Bangalore (IISc)**
 Karnataka, India
 <p style="text-align:left;">
@@ -110,9 +114,12 @@ Department of Biosciences and Bioengineering
 
 * Purification of Cas4E87A mutant protein by the Hybrid Method followed by its quantification.
 
+--->
+
 ### LEADERSHIP
 <p style="text-align:left;">
-**Student Mentor- Student’s Welfare Board, IIT-Guwahati**<span style="float:right;">09/2016 - 04/2017</span>
+**Student Mentor- Student’s Welfare Board, IIT-Guwahati**
+<span style="float:right;">09/2016 - 04/2017</span>
 </p>
 
 * Mentored freshman students through various facets of the first academic year.
@@ -120,7 +127,8 @@ Department of Biosciences and Bioengineering
 * Won the best student mentor award.
 
 <p style="text-align:left;">
-**Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati**<span style="float:right;  font-weight: normal;>10/2015 - 09/2016</span>
+**Chief Organiser- TechExpo, Techniche, IIT-Guwahati**
+<span style="float:right;  font-weight: normal;>10/2015 - 09/2016</span>
 </p>
 
 * Organised the largest student science expo of North-East of India.
@@ -130,7 +138,8 @@ Department of Biosciences and Bioengineering
 * Organised the itinerary of judges from all across the world such as Dr. Thomas Barclay (NASA).
 
 <p style="text-align:left;">
-**Head- Industrial Conclave, Exhibitions and Literary Module, Techniche, IIT-Guwahati** <span style="float:right;">10/2015 - 09/2016</span>
+**Head- Industrial Conclave, Exhibitions and Literary Module, Techniche, IIT-Guwahati** 
+<span style="float:right;">10/2015 - 09/2016</span>
 </p>
 
 * Lead a team of highly motivated students in organizing three high profile events.
@@ -140,11 +149,13 @@ Department of Biosciences and Bioengineering
 * The exhibitions at IIT-Guwahati saw a footfall of nearly 30,000 people.
 
 <p style="text-align:left;">
-**Member- National Service Scheme** 	<span style="float:right;">07/2015 - 04/2016</span>
+**Member- National Service Scheme** 	
+<span style="float:right;">07/2015 - 04/2016</span>
 </p>
 						 	                                                  
 <p style="text-align:left;">
-**Member- Montage, The Photography Club of IIT-Guwahati**	<span style="float:right;">07/2014 - 05/2018</span>
+**Member- Montage, The Photography Club of IIT-Guwahati**	
+<span style="float:right;">07/2014 - 05/2018</span>
 </p>
 </body>
 
