@@ -10,22 +10,25 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 <body>
+<!--
 ###SUMMARY
 
 Biostatistics graduate student with prior research experience in data analysis of genetic data. Seeking for data intensive works with flexible fields of interest.
+--->
 
-###EDUCATION
+### EDUCATION
 
-####**Columbia University, Mailman School of Public Health**
+#### **Columbia University, Mailman School of Public Health**
 New York, NY, USA
 <p style="text-align:left;">
 Master of Science, Biostatistics/Statistical Genetics Track
 <span style="float:right;">Expected 05/2020</span>
-</br>**Relevant Courses**: Data Science I and II ⃰, Probability, Statistical Inferences ⃰, Statistical Genetics Modeling ⃰, Biostatistical Methods I and II ⃰
+</br>**Relevant Courses**: Topics in Statistical Learning and Data Mining, Analysis of Longitudinal Data, Statistical Machine Learning, Statistical Inference, Introduction to Applied Statistics, Advanced Statistical Methods, Statistical Genetics Modeling 
 </p>
 
-####**Indian Institute of Technology Guwahati (IIT Guwahati)** 	
+#### **Indian Institute of Technology Guwahati (IIT Guwahati)** 	
 Assam, India 
 <p style="text-align:left;">
 Bachelor of Technology, Biotechnology
@@ -34,7 +37,41 @@ Bachelor of Technology, Biotechnology
 </br>**Relevant Courses**: Biochemistry, Molecular Biology and Genetic Engineering, Immunology, Bioinformatics, Human Disease Biology
 </p>
 
-###EXPERIENCE
+### SKILLS
+
+#### **Tools**: 
+  * R (ggplot2, dplyr, tidyverse, shiny), SQL*, MS Excel ⃰, MS Word, MS PowerPoint 
+
+#### **OS**: 
+  * Windows, MacOS
+
+#### **Languages**: 
+  * Bilingual in English/Hindi.
+
+
+### EXPERIENCE
+
+#### **Columbia University, School of Nursing** 			     
+New York, New York
+<p style="text-align:left;">
+Program Assistant
+<span style="float:right;">03/2019 - Present</span>
+</p>
+
+* Collaborate with a two person team in managing the school’s global initiative, sending out nearly 100 students to 17 different international sites.
+
+* Transformed the whole application process and document processing by migrating from paper-based forms to electronic forms (DocuSign). 
+
+* Carry out information tracking on MS Excel, report making on MS PowerPoint for the school’s leadership and survey design on Qualtrics. 
+
+####**Columbia University, Mailman School of Public Health** 			     
+New York, New York
+<p style="text-align:left;">
+Teaching Assistant, Department of Biostatistics
+<span style="float:right;">03/2019 - Present</span>
+</p>
+
+* Collaborated with a six-person team in managing weekly ofﬁce hours, assignments, quizzes and exams for the graduate-level Probability course, P8104 with 120 registered students. 
 
 ####**Katholieke Universiteit (KU)** 			     
 Leuven, Belgium
@@ -44,11 +81,11 @@ Visiting Scholar, Department of Biology
 </br>Laboratory of Aquatic Ecology, Evolution and Conservation
 </p>
 
-* Carried out data analysis of high throughput transcriptomics data of a natural Daphnia magna population that was under varying predation pressure during a period of sixteen years.
+* Analyzed high throughput transcriptomics (RNA-seq) data of a natural Daphnia magna population with around 30000 genes to understand the variation in gene expression level with varying predation pressure. 
 
-* Computed Principal Component Analysis (PCA), Concordance Analysis and VCF tools for quality check.
+* Performed Concordance Analysis, Principal Component Analysis (PCA) for sample quality control. 
 
-* Produced visualisations such as reaction norms to understand the variation in gene expression over time.
+* Produced visualizations using ggplot2 in R to understand the variation in gene expression over time using reaction norms.
 
 ####**Indian Institute of Science, Bangalore (IISc)**
 Karnataka, India
@@ -73,15 +110,6 @@ Department of Biosciences and Bioengineering
 
 * Purification of Cas4E87A mutant protein by the Hybrid Method followed by its quantification.
 
-###SKILLS
-####**Tools**: 
-  * R (ggplot2, dplyr, tidyverse, shiny), SQL*, MS Excel ⃰, MS Word, MS PowerPoint 
-
-####**OS**: 
-  * Windows, MacOS
-
-####**Languages**: 
-  * Bilingual in English/Hindi.
 
 ###LEADERSHIP
 <p style="text-align:left;">
