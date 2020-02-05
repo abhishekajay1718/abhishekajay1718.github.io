@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Abhishek Ajay (aa4266)" />
@@ -27,9 +28,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -78,9 +78,7 @@ h6 {
 
 <link rel="stylesheet" href="style_resume.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -94,7 +92,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -104,6 +101,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -119,7 +119,6 @@ body {
   padding-top: 66px;
   margin-top: -66px;
 }
-
 .section h2 {
   padding-top: 66px;
   margin-top: -66px;
@@ -139,6 +138,43 @@ body {
 .section h6 {
   padding-top: 66px;
   margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -160,47 +196,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -214,6 +268,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -249,8 +309,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -259,6 +317,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -324,38 +392,27 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Resume</h1>
-<h4 class="author"><em>Abhishek Ajay (aa4266)</em></h4>
-<h4 class="date"><em>October 31, 2018</em></h4>
+<h4 class="author">Abhishek Ajay (aa4266)</h4>
+<h4 class="date">October 31, 2018</h4>
 
 </div>
 
 
 <body>
-<div id="summary" class="section level3">
-<h3>SUMMARY</h3>
+<p>###SUMMARY</p>
 <p>Biostatistics graduate student with prior research experience in data analysis of genetic data. Seeking for data intensive works with flexible fields of interest.</p>
-</div>
-<div id="education" class="section level3">
-<h3>EDUCATION</h3>
-<div id="columbia-university-mailman-school-of-public-health" class="section level4">
-<h4><strong>Columbia University, Mailman School of Public Health</strong></h4>
-New York, NY, USA
+<p>###EDUCATION</p>
+####<strong>Columbia University, Mailman School of Public Health</strong> New York, NY, USA
 <p style="text-align:left;">
 Master of Science, Biostatistics/Statistical Genetics Track <span style="float:right;">Expected 05/2020</span> </br><strong>Relevant Courses</strong>: Data Science I and II ⃰, Probability, Statistical Inferences ⃰, Statistical Genetics Modeling ⃰, Biostatistical Methods I and II ⃰
 </p>
-</div>
-<div id="indian-institute-of-technology-guwahati-iit-guwahati" class="section level4">
-<h4><strong>Indian Institute of Technology Guwahati (IIT Guwahati)</strong></h4>
+####<strong>Indian Institute of Technology Guwahati (IIT Guwahati)</strong><br />
 Assam, India
 <p style="text-align:left;">
 Bachelor of Technology, Biotechnology <span style="float:right;">Graduation 06/2018</span> </br><strong>Thesis</strong>: Analysis of transcriptomics data of a natural Daphnia magna population under varying predation pressure. </br><strong>Relevant Courses</strong>: Biochemistry, Molecular Biology and Genetic Engineering, Immunology, Bioinformatics, Human Disease Biology
 </p>
-</div>
-</div>
-<div id="experience" class="section level3">
-<h3>EXPERIENCE</h3>
-<div id="katholieke-universiteit-ku" class="section level4">
-<h4><strong>Katholieke Universiteit (KU)</strong></h4>
+<p>###EXPERIENCE</p>
+####<strong>Katholieke Universiteit (KU)</strong><br />
 Leuven, Belgium
 <p style="text-align:left;">
 Visiting Scholar, Department of Biology <span style="float:right;">05/2017 - 07/2017 and 12/2017 - 01/2018</span> </br>Laboratory of Aquatic Ecology, Evolution and Conservation
@@ -365,10 +422,7 @@ Visiting Scholar, Department of Biology <span style="float:right;">05/2017 - 07/
 <li><p>Computed Principal Component Analysis (PCA), Concordance Analysis and VCF tools for quality check.</p></li>
 <li><p>Produced visualisations such as reaction norms to understand the variation in gene expression over time.</p></li>
 </ul>
-</div>
-<div id="indian-institute-of-science-bangalore-iisc" class="section level4">
-<h4><strong>Indian Institute of Science, Bangalore (IISc)</strong></h4>
-Karnataka, India
+####<strong>Indian Institute of Science, Bangalore (IISc)</strong> Karnataka, India
 <p style="text-align:left;">
 Summer Research Fellow, Department of Biochemistry <span style="float:right;">05/2016 - 07/2016 </span>
 </p>
@@ -376,9 +430,7 @@ Summer Research Fellow, Department of Biochemistry <span style="float:right;">05
 <li><p>Investigated the possible mechanism behind limiting the spread of rDNA silencing at the RDN1 left boundary on yeast chromosome XII.</p></li>
 <li><p>Cloned a 600bp fragment to KanMX6 and then sub-cloned it into the plasmid pRO363 to check whether barrier activity is sequence specific or size dependent by analysing the mating efficiency of transformed yeast cells.</p></li>
 </ul>
-</div>
-<div id="indian-institute-of-technology-guwahati" class="section level4">
-<h4><strong>Indian Institute of Technology, Guwahati</strong></h4>
+####<strong>Indian Institute of Technology, Guwahati</strong><br />
 Assam, India
 <p style="text-align:left;">
 Department of Biosciences and Bioengineering <span style="float:right;">01/2017 - 03/2017</span> </br>Laboratory of Aquatic Ecology, Evolution and Conservation
@@ -387,31 +439,10 @@ Department of Biosciences and Bioengineering <span style="float:right;">01/2017 
 <li><p>Optimise expression and purification of a Cas4 mutant protein, Cas4E87A and analyse its activity.</p></li>
 <li><p>Purification of Cas4E87A mutant protein by the Hybrid Method followed by its quantification.</p></li>
 </ul>
-</div>
-</div>
-<div id="skills" class="section level3">
-<h3>SKILLS</h3>
-<div id="tools" class="section level4">
-<h4><strong>Tools</strong>:</h4>
-<ul>
-<li>R (ggplot2, dplyr, tidyverse, shiny), SQL*, MS Excel ⃰, MS Word, MS PowerPoint</li>
-</ul>
-</div>
-<div id="os" class="section level4">
-<h4><strong>OS</strong>:</h4>
-<ul>
-<li>Windows, MacOS</li>
-</ul>
-</div>
-<div id="languages" class="section level4">
-<h4><strong>Languages</strong>:</h4>
-<ul>
-<li>Bilingual in English/Hindi.</li>
-</ul>
-</div>
-</div>
-<div id="leadership" class="section level3">
-<h3>LEADERSHIP</h3>
+<p>###SKILLS ####<strong>Tools</strong>: * R (ggplot2, dplyr, tidyverse, shiny), SQL*, MS Excel ⃰, MS Word, MS PowerPoint</p>
+<p>####<strong>OS</strong>: * Windows, MacOS</p>
+<p>####<strong>Languages</strong>: * Bilingual in English/Hindi.</p>
+###LEADERSHIP
 <p style="text-align:left;">
 <strong>Student Mentor- Student’s Welfare Board, IIT-Guwahati</strong><span style="float:right;">09/2016 - 04/2017</span>
 </p>
@@ -420,16 +451,7 @@ Department of Biosciences and Bioengineering <span style="float:right;">01/2017 
 <li><p>Won the best student mentor award.</p></li>
 </ul>
 <p style="text-align:left;">
-<strong>Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati</strong><span style="float:right;  font-weight: normal;&gt;10/2015 - 09/2016&lt;/span&gt;
-&lt;/p&gt;
-
-* Organised the largest student science expo of North-East of India.
-
-* Handled a budget of nearly INR 15,00,000 (~21,000 USD).
-
-* Organised the itinerary of judges from all across the world such as Dr. Thomas Barclay (NASA).
-
-&lt;p style=" text-align:left;"="">10/2015 - 09/2016</span>
+<strong>Chief Organiser- TechExpo, Techniche (Annual Technical Festival), IIT-Guwahati</strong>&lt;span style="float:right; font-weight: normal;&gt;10/2015 - 09/2016</span>
 </p>
 <ul>
 <li><p>Organised the largest student science expo of North-East of India.</p></li>
@@ -452,7 +474,6 @@ Department of Biosciences and Bioengineering <span style="float:right;">01/2017 
 </p>
 </body>
 <p>*: Basic proficiency</p>
-</div>
 
 
 
@@ -472,6 +493,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
