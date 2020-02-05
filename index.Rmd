@@ -13,7 +13,7 @@ output:
 
 
 <p>
-  Hi! I am a first year MS in Biostatistics Student and this is my personal website. 
+  Hi! I am a final year MS student in the Department of Biostatistics at Columbia University, Mailman School of Public Health. 
 </p>
 
 <!--
